@@ -35,18 +35,18 @@ Follow these steps to set up the project locally:
    git clone https://github.com/ArnavMishra23/DebateLive.git
    cd DebateLive
    
-2.Install backend dependencies
+2. Install backend dependencies
 cd server
 npm install
 npm start
 
-3.Open the frontend
+3. Open the frontend
 Locate the index.html file inside the project root.
 Right-click and choose Open with → Browser.
 
 4.(Optional): Use a local server for frontend:
-# Using VSCode extension 'Live Server'
-# Or Python's simple HTTP server
+Using VSCode extension 'Live Server'
+Or Python's simple HTTP server
 python3 -m http.server
 
 5.Visit

@@ -57,9 +57,9 @@ It serves communities needing open discussions, educational debate formats, or r
 
 ## ✅ Tasks & Bonus Checklist
 
-- [ ] **All members completed mandatory social channels task**
-- [ ] **Bonus Task 1 - Badge Sharing (2 points)**
-- [ ] **Bonus Task 2 - Sprint.dev Sign-up (3 points)**
+- [✅] **All members completed mandatory social channels task**
+- [✅] **Bonus Task 1 - Badge Sharing (2 points)**
+- [✅] **Bonus Task 2 - Sprint.dev Sign-up (3 points)**
 
 ---
 

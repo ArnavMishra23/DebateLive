@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schedule - DebateLive</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="schedulepage.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-container">
+      <a href="index.html" class="logo">Debate<span>Live</span></a>
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="livedebates.html">Live Debates</a></li>
+          <li><a href="schedulepage.html">Schedule</a></li>
+          <li><a href="statistics.html">Statistics</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="schedule-hero">
+    <div class="container">
+      <h1 class="animate-on-scroll">Debate Schedule</h1>
+      <p class="animate-on-scroll">Plan your week with our upcoming debates on today's most important topics.</p>
+    </div>
+  </section>
+
+  <!-- Calendar Navigation -->
+  <section class="calendar-nav">
+    <div class="container">
+      <div class="calendar-controls animate-on-scroll">
+        <button class="btn btn-outline"><i class="fas fa-chevron-left"></i></button>
+        <h2 class="current-month">June 2023</h2>
+        <button class="btn btn-outline"><i class="fas fa-chevron-right"></i></button>
+      </div>
+      <div class="day-selector animate-on-scroll">
+        <button class="day-btn">
+          <span class="day-name">Mon</span>
+          <span class="day-date">12</span>
+        </button>
+        <button class="day-btn">
+          <span class="day-name">Tue</span>
+          <span class="day-date">13</span>
+        </button>
+        <button class="day-btn">
+          <span class="day-name">Wed</span>
+          <span class="day-date">14</span>
+        </button>
+        <button class="day-btn active">
+          <span class="day-name">Thu</span>
+          <span class="day-date">15</span>
+        </button>
+        <button class="day-btn">
+          <span class="day-name">Fri</span>
+          <span class="day-date">16</span>
+        </button>
+        <button class="day-btn">
+          <span class="day-name">Sat</span>
+          <span class="day-date">17</span>
+        </button>
+        <button class="day-btn">
+          <span class="day-name">Sun</span>
+          <span class="day-date">18</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Schedule Section -->
+  <section class="py-4">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">Thursday, June 15, 2023</h2>
+      
+      <div class="schedule-timeline animate-on-scroll">
+        <!-- Morning -->
+        <div class="timeline-section">
+          <h3 class="timeline-heading">Morning</h3>
+          
+          <div class="schedule-item">
+            <div class="schedule-time">
+              <span class="time">9:00 AM</span>
+              <span class="duration">1.5 hrs</span>
+            </div>
+            <div class="schedule-content">
+              <div class="schedule-card">
+                <h4>The Future of Work: Remote vs. Office</h4>
+                <div class="schedule-details">
+                  <p><i class="fas fa-user"></i> <strong>Debaters:</strong> Dr. Emily Roberts, Prof. James Wilson</p>
+                  <p><i class="fas fa-tag"></i> <strong>Category:</strong> Economics, Society</p>
+                  <p><i class="fas fa-info-circle"></i> <strong>Description:</strong> As remote work becomes increasingly common, this debate explores the benefits and drawbacks of remote vs. in-office work arrangements.</p>
+                </div>
+                <div class="schedule-actions">
+                  <button class="btn btn-primary btn-sm">Set Reminder</button>
+                  <button class="btn btn-outline btn-sm">Add to Calendar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="schedule-item">
+            <div class="schedule-time">
+              <span class="time">11:00 AM</span>
+              <span class="duration">1 hr</span>
+            </div>
+            <div class="schedule-content">
+              <div class="schedule-card">
+                <h4>Cryptocurrency: Future of Finance or Speculative Bubble?</h4>
+                <div class="schedule-details">
+                  <p><i class="fas fa-user"></i> <strong>Debaters:</strong> Sarah Johnson, Michael Chen</p>
+                  <p><i class="fas fa-tag"></i> <strong>Category:</strong> Finance, Technology</p>
+                  <p><i class="fas fa-info-circle"></i> <strong>Description:</strong> This debate examines the potential of cryptocurrencies to revolutionize finance versus concerns about their volatility and sustainability.</p>
+                </div>
+                <div class="schedule-actions">
+                  <button class="btn btn-primary btn-sm">Set Reminder</button>
+                  <button class="btn btn-outline btn-sm">Add to Calendar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Afternoon -->
+        <div class="timeline-section">
+          <h3 class="timeline-heading">Afternoon</h3>
+          
+          <div class="schedule-item">
+            <div class="schedule-time">
+              <span class="time">2:00 PM</span>
+              <span class="duration">1.5 hrs</span>
+            </div>
+            <div class="schedule-content">
+              <div class="schedule-card featured">
+                <div class="featured-badge">Featured</div>
+                <h4>Climate Change Solutions: Technology vs. Policy</h4>
+                <div class="schedule-details">
+                  <p><i class="fas fa-user"></i> <strong>Debaters:</strong> Dr. Alan Turing, Dr. Ada Lovelace</p>
+                  <p><i class="fas fa-tag"></i> <strong>Category:</strong> Environment, Technology, Policy</p>
+                  <p><i class="fas fa-info-circle"></i> <strong>Description:</strong> This debate explores whether technological innovation or policy changes are more effective in addressing climate change challenges.</p>
+                </div>
+                <div class="schedule-actions">
+                  <button class="btn btn-primary btn-sm">Set Reminder</button>
+                  <button class="btn btn-outline btn-sm">Add to Calendar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="schedule-item">
+            <div class="schedule-time">
+              <span class="time">4:30 PM</span>
+              <span class="duration">1 hr</span>
+            </div>
+            <div class="schedule-content">
+              <div class="schedule-card">
+                <h4>Universal Basic Income: Solution or Problem?</h4>
+                <div class="schedule-details">
+                  <p><i class="fas fa-user"></i> <strong>Debaters:</strong> Prof. Maria Garcia, Dr. John Smith</p>
+                  <p><i class="fas fa-tag"></i> <strong>Category:</strong> Economics, Society, Policy</p>
+                  <p><i class="fas fa-info-circle"></i> <strong>Description:</strong> This debate examines the potential benefits and drawbacks of implementing a universal basic income system.</p>
+                </div>
+                <div class="schedule-actions">
+                  <button class="btn btn-primary btn-sm">Set Reminder</button>
+                  <button class="btn btn-outline btn-sm">Add to Calendar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Evening -->
+        <div class="timeline-section">
+          <h3 class="timeline-heading">Evening</h3>
+          
+          <div class="schedule-item">
+            <div class="schedule-time">
+              <span class="time">7:00 PM</span>
+              <span class="duration">2 hrs</span>
+            </div>
+            <div class="schedule-content">
+              <div class="schedule-card">
+                <h4>Artificial Intelligence: Risks and Rewards</h4>
+                <div class="schedule-details">
+                  <p><i class="fas fa-user"></i> <strong>Debaters:</strong> Dr. Robert Johnson, Prof. Lisa Chen</p>
+                  <p><i class="fas fa-tag"></i> <strong>Category:</strong> Technology, Ethics</p>
+                  <p><i class="fas fa-info-circle"></i> <strong>Description:</strong> This debate explores the potential benefits of AI advancement against concerns about safety, ethics, and societal impact.</p>
+                </div>
+                <div class="schedule-actions">
+                  <button class="btn btn-primary btn-sm">Set Reminder</button>
+                  <button class="btn btn-outline btn-sm">Add to Calendar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="schedule-item">
+            <div class="schedule-time">
+              <span class="time">9:30 PM</span>
+              <span class="duration">1.5 hrs</span>
+            </div>
+            <div class="schedule-content">
+              <div class="schedule-card">
+                <h4>Democracy in the Digital Age</h4>
+                <div class="schedule-details">
+                  <p><i class="fas fa-user"></i> <strong>Debaters:</strong> Prof. David Wilson, Dr. Sarah Adams</p>
+                  <p><i class="fas fa-tag"></i> <strong>Category:</strong> Politics, Technology</p>
+                  <p><i class="fas fa-info-circle"></i> <strong>Description:</strong> This debate examines how digital technologies are transforming democratic processes and institutions.</p>
+                </div>
+                <div class="schedule-actions">
+                  <button class="btn btn-primary btn-sm">Set Reminder</button>
+                  <button class="btn btn-outline btn-sm">Add to Calendar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Filter Section -->
+  <section class="py-4 bg-light">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">Find Debates by Topic</h2>
+      <div class="filter-container animate-on-scroll">
+        <div class="filter-tags">
+          <button class="filter-tag active">All</button>
+          <button class="filter-tag">Technology</button>
+          <button class="filter-tag">Politics</button>
+          <button class="filter-tag">Economics</button>
+          <button class="filter-tag">Environment</button>
+          <button class="filter-tag">Society</button>
+          <button class="filter-tag">Ethics</button>
+          <button class="filter-tag">Science</button>
+          <button class="filter-tag">Health</button>
+        </div>
+        <div class="search-box">
+          <input type="text" placeholder="Search debates...">
+          <button class="btn btn-primary"><i class="fas fa-search"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Subscribe Section -->
+  <section class="py-4">
+    <div class="container">
+      <div class="subscribe-box animate-on-scroll">
+        <div class="subscribe-content">
+          <h2>Never Miss a Debate</h2>
+          <p>Subscribe to our weekly schedule and get notified about upcoming debates that match your interests.</p>
+        </div>
+        <div class="subscribe-form">
+          <input type="email" placeholder="Your email address">
+          <button class="btn btn-primary">Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>DebateLive</h3>
+          <p>Your premier platform for engaging in and watching live debates on topics that matter.</p>
+          <div class="social-links mt-2">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="livedebates.html">Live Debates</a></li>
+            <li><a href="schedulepage.html">Schedule</a></li>
+            <li><a href="statistics.html">Statistics</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <ul>
+            <li><i class="fas fa-envelope"></i> debatelive@gmail.com</li>
+            <li><i class="fas fa-map-marker-alt"></i> Waknaghat, Himachal Pradesh, India</li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 DebateLive. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="schedulepage.js"></script>
+</body>
+</html>

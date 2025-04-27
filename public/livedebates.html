@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Debates - DebateLive</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="livedebates.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-container">
+      <a href="index.html" class="logo">Debate<span>Live</span></a>
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="livedebates.html">Live Debates</a></li>
+          <li><a href="schedulepage.html">Schedule</a></li>
+          <li><a href="statistics.html">Statistics</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="live-hero">
+    <div class="container">
+      <h1 class="animate-on-scroll">Live Debates</h1>
+      <p class="animate-on-scroll">Watch and participate in real-time debates on today's most important topics.</p>
+    </div>
+  </section>
+
+  <!-- Live Now Section -->
+  <section class="py-4">
+    <div class="container">
+      <div class="live-now-badge animate-on-scroll">
+        <span class="pulse"></span> LIVE NOW
+      </div>
+      <div class="featured-debate animate-on-scroll">
+        <div class="video-container">
+          <img src="https://via.placeholder.com/1280x720" alt="Current debate" class="placeholder-video">
+          <div class="play-button">
+            <i class="fas fa-play"></i>
+          </div>
+        </div>
+        <div class="debate-info">
+          <h2>The Future of Renewable Energy</h2>
+          <div class="debaters">
+            <div class="debater">
+              <img src="https://via.placeholder.com/100x100" alt="Dr. Sarah Johnson" class="debater-img">
+              <p>Dr. Sarah Johnson</p>
+              <span class="position">For</span>
+            </div>
+            <div class="vs">VS</div>
+            <div class="debater">
+              <img src="https://via.placeholder.com/100x100" alt="Prof. Michael Chen" class="debater-img">
+              <p>Prof. Michael Chen</p>
+              <span class="position">Against</span>
+            </div>
+          </div>
+          <div class="debate-actions">
+            <button class="btn btn-primary"><i class="fas fa-play"></i> Watch Now</button>
+            <button class="btn btn-outline"><i class="fas fa-comment"></i> Join Discussion</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Upcoming Live Debates -->
+  <section class="py-4 bg-light">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">Coming Up Next</h2>
+      <div class="row">
+        <div class="col animate-on-scroll">
+          <div class="debate-card">
+            <div class="debate-time">
+              <span class="time">2:00 PM</span>
+              <span class="date">Today</span>
+            </div>
+            <div class="debate-card-content">
+              <h3>Universal Basic Income: Solution or Problem?</h3>
+              <div class="debaters-mini">
+                <span>Dr. Emily Roberts vs. Prof. James Wilson</span>
+              </div>
+              <button class="btn btn-primary btn-sm mt-2">Set Reminder</button>
+            </div>
+          </div>
+        </div>
+        <div class="col animate-on-scroll">
+          <div class="debate-card">
+            <div class="debate-time">
+              <span class="time">4:30 PM</span>
+              <span class="date">Today</span>
+            </div>
+            <div class="debate-card-content">
+              <h3>Artificial Intelligence: Risks and Rewards</h3>
+              <div class="debaters-mini">
+                <span>Dr. Alan Turing vs. Dr. Ada Lovelace</span>
+              </div>
+              <button class="btn btn-primary btn-sm mt-2">Set Reminder</button>
+            </div>
+          </div>
+        </div>
+        <div class="col animate-on-scroll">
+          <div class="debate-card">
+            <div class="debate-time">
+              <span class="time">7:00 PM</span>
+              <span class="date">Today</span>
+            </div>
+            <div class="debate-card-content">
+              <h3>Democracy in the Digital Age</h3>
+              <div class="debaters-mini">
+                <span>Prof. Maria Garcia vs. Dr. John Smith</span>
+              </div>
+              <button class="btn btn-primary btn-sm mt-2">Set Reminder</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recent Debates Section -->
+  <section class="py-4">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">Recent Debates</h2>
+      <div class="row">
+        <div class="col animate-on-scroll">
+          <div class="recent-debate">
+            <div class="recent-debate-thumbnail">
+              <img src="https://via.placeholder.com/400x225" alt="Climate Change Debate">
+              <span class="duration">1:24:36</span>
+            </div>
+            <div class="recent-debate-content">
+              <h3>Climate Change: Global Response</h3>
+              <p class="debate-date">June 10, 2023</p>
+              <p class="debate-views"><i class="fas fa-eye"></i> 24,567 views</p>
+              <button class="btn btn-primary btn-sm">Watch</button>
+            </div>
+          </div>
+        </div>
+        <div class="col animate-on-scroll">
+          <div class="recent-debate">
+            <div class="recent-debate-thumbnail">
+              <img src="https://via.placeholder.com/400x225" alt="Healthcare Reform Debate">
+              <span class="duration">1:12:45</span>
+            </div>
+            <div class="recent-debate-content">
+              <h3>Healthcare Reform: Public vs. Private</h3>
+              <p class="debate-date">June 8, 2023</p>
+              <p class="debate-views"><i class="fas fa-eye"></i> 18,932 views</p>
+              <button class="btn btn-primary btn-sm">Watch</button>
+            </div>
+          </div>
+        </div>
+        <div class="col animate-on-scroll">
+          <div class="recent-debate">
+            <div class="recent-debate-thumbnail">
+              <img src="https://via.placeholder.com/400x225" alt="Education Reform Debate">
+              <span class="duration">1:36:22</span>
+            </div>
+            <div class="recent-debate-content">
+              <h3>Education Reform in the 21st Century</h3>
+              <p class="debate-date">June 5, 2023</p>
+              <p class="debate-views"><i class="fas fa-eye"></i> 21,345 views</p>
+              <button class="btn btn-primary btn-sm">Watch</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-3">
+        <a href="#" class="btn btn-outline animate-on-scroll">View All Past Debates</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Live Chat Section -->
+  <section class="py-4 bg-light">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">Join the Conversation</h2>
+      <div class="row">
+        <div class="col-md-8 animate-on-scroll">
+          <div class="chat-container">
+            <div class="chat-messages">
+              <div class="message">
+                <div class="message-avatar">
+                  <img src="https://via.placeholder.com/40x40" alt="User">
+                </div>
+                <div class="message-content">
+                  <div class="message-header">
+                    <span class="message-author">JaneDoe</span>
+                    <span class="message-time">2:34 PM</span>
+                  </div>
+                  <div class="message-text">
+                    Dr. Johnson makes a compelling point about renewable energy infrastructure costs.
+                  </div>
+                </div>
+              </div>
+              <div class="message">
+                <div class="message-avatar">
+                  <img src="https://via.placeholder.com/40x40" alt="User">
+                </div>
+                <div class="message-content">
+                  <div class="message-header">
+                    <span class="message-author">EnergyExpert</span>
+                    <span class="message-time">2:36 PM</span>
+                  </div>
+                  <div class="message-text">
+                    I disagree. Prof. Chen's data on long-term cost savings is more convincing.
+                  </div>
+                </div>
+              </div>
+              <div class="message">
+                <div class="message-avatar">
+                  <img src="https://via.placeholder.com/40x40" alt="User">
+                </div>
+                <div class="message-content">
+                  <div class="message-header">
+                    <span class="message-author">ClimateScientist</span>
+                    <span class="message-time">2:38 PM</span>
+                  </div>
+                  <div class="message-text">
+                    Both are overlooking the environmental impact factor, which should be the primary consideration.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="chat-input">
+              <input type="text" placeholder="Type your message...">
+              <button class="btn btn-primary"><i class="fas fa-paper-plane"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 animate-on-scroll">
+          <div class="live-poll">
+            <h3>Live Poll</h3>
+            <p>Which side do you find more convincing?</p>
+            <div class="poll-option">
+              <div class="poll-label">Dr. Johnson (For)</div>
+              <div class="poll-bar">
+                <div class="poll-progress" style="width: 65%;"></div>
+                <span class="poll-percentage">65%</span>
+              </div>
+            </div>
+            <div class="poll-option">
+              <div class="poll-label">Prof. Chen (Against)</div>
+              <div class="poll-bar">
+                <div class="poll-progress" style="width: 35%;"></div>
+                <span class="poll-percentage">35%</span>
+              </div>
+            </div>
+            <p class="poll-votes">Total votes: 1,245</p>
+            <button class="btn btn-primary btn-sm">Vote</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>DebateLive</h3>
+          <p>Your premier platform for engaging in and watching live debates on topics that matter.</p>
+          <div class="social-links mt-2">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="livedebates.html">Live Debates</a></li>
+            <li><a href="schedulepage.html">Schedule</a></li>
+            <li><a href="statistics.html">Statistics</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <ul>
+            <li><i class="fas fa-envelope"></i> debatelive@gmail.com</li>
+            <li><i class="fas fa-map-marker-alt"></i> Waknaghat, Himachal Pradesh, India</li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 DebateLive. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="livedebates.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+<script>
+    const socket = io();
+
+    function sendMessage() {
+        const input = document.getElementById("debateInput");
+        const message = input.value;
+        socket.emit("debate-message", message);
+        input.value = "";
+    }
+</script>
+<div style="margin-top: 20px;">
+  <input type="text" id="debateInput" placeholder="Type your debate point here" />
+  <button onclick="sendMessage()">Send</button>
+</div>
+
+</body>
+</html>

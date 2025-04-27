@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Statistics - DebateLive</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="statistics.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-container">
+      <a href="index.html" class="logo">Debate<span>Live</span></a>
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="livedebates.html">Live Debates</a></li>
+          <li><a href="schedulepage.html">Schedule</a></li>
+          <li><a href="statistics.html">Statistics</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="stats-hero">
+    <div class="container">
+      <h1 class="animate-on-scroll">Debate Statistics</h1>
+      <p class="animate-on-scroll">Explore data and insights from our debates and community engagement.</p>
+    </div>
+  </section>
+
+  <!-- Overview Stats -->
+  <section class="py-4">
+    <div class="container">
+      <div class="stats-overview animate-on-scroll">
+        <div class="stat-card">
+          <div class="stat-icon">
+            <i class="fas fa-video"></i>
+          </div>
+          <div class="stat-content">
+            <h3 class="stat-value">1,245</h3>
+            <p class="stat-label">Debates Hosted</p>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="stat-content">
+            <h3 class="stat-value">3,782</h3>
+            <p class="stat-label">Expert Debaters</p>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">
+            <i class="fas fa-eye"></i>
+          </div>
+          <div class="stat-content">
+            <h3 class="stat-value">12.5M</h3>
+            <p class="stat-label">Total Views</p>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">
+            <i class="fas fa-comment"></i>
+          </div>
+          <div class="stat-content">
+            <h3 class="stat-value">856K</h3>
+            <p class="stat-label">Community Comments</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Topics -->
+  <section class="py-4 bg-light">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">Most Popular Debate Topics</h2>
+      <div class="chart-container animate-on-scroll">
+        <canvas id="topicsChart" height="250"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- Audience Engagement -->
+  <section class="py-4">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">Viewer Engagement</h2>
+      <div class="row">
+        <div class="col-md-6 animate-on-scroll">
+          <div class="chart-card">
+            <h3>Viewer Demographics</h3>
+            <div class="chart-container">
+              <canvas id="demographicsChart" height="220"></canvas>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 animate-on-scroll">
+          <div class="chart-card">
+            <h3>Engagement by Platform</h3>
+            <div class="chart-container">
+              <canvas id="platformsChart" height="220"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Top Debates -->
+  <section class="py-4 bg-light">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">Top Debates of All Time</h2>
+      <div class="top-debates animate-on-scroll">
+        <table class="stats-table">
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Debate Title</th>
+              <th>Debaters</th>
+              <th>Views</th>
+              <th>Engagement Rate</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Artificial Intelligence: Future Implications</td>
+              <td>Dr. Alan Turing vs. Dr. Ada Lovelace</td>
+              <td>1.2M</td>
+              <td>87%</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Climate Change Solutions</td>
+              <td>Dr. Emily Roberts vs. Prof. James Wilson</td>
+              <td>985K</td>
+              <td>82%</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Universal Basic Income</td>
+              <td>Prof. Maria Garcia vs. Dr. John Smith</td>
+              <td>876K</td>
+              <td>79%</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Future of Democracy</td>
+              <td>Sarah Johnson vs. Michael Chen</td>
+              <td>754K</td>
+              <td>75%</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Cryptocurrency: Revolution or Bubble</td>
+              <td>Dr. Robert Johnson vs. Prof. Lisa Chen</td>
+              <td>712K</td>
+              <td>73%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Debate Outcomes -->
+  <section class="py-4">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">Debate Outcomes</h2>
+      <div class="chart-container animate-on-scroll">
+        <canvas id="outcomesChart" height="250"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- Growth Trends -->
+  <section class="py-4 bg-light">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">Platform Growth</h2>
+      <div class="chart-container animate-on-scroll">
+        <canvas id="growthChart" height="250"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download Section -->
+  <section class="py-4">
+    <div class="container">
+      <div class="download-box animate-on-scroll">
+        <div class="download-content">
+          <h2>Download Our Full Report</h2>
+          <p>Get access to our comprehensive annual report with detailed statistics and insights about debates, audience engagement, and platform growth.</p>
+        </div>
+        <div class="download-actions">
+          <a href="#" class="btn btn-primary"><i class="fas fa-download"></i> Download PDF</a>
+          <a href="#" class="btn btn-outline">Request Custom Analysis</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>DebateLive</h3>
+          <p>Your premier platform for engaging in and watching live debates on topics that matter.</p>
+          <div class="social-links mt-2">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="livedebates.html">Live Debates</a></li>
+            <li><a href="schedulepage.html">Schedule</a></li>
+            <li><a href="statistics.html">Statistics</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <ul>
+            <li><i class="fas fa-envelope"></i> debatelive@gmail.com</li>
+            <li><i class="fas fa-map-marker-alt"></i> Waknaghat, Himachal Pradesh, India</li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 DebateLive. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+  <script src="statistics.js"></script>
+</body>
+</html>

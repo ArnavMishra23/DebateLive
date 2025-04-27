@@ -8,84 +8,90 @@
 
 ---
 
-## ✨ Features
-
-- 🔴 **Real-time live debates** powered by Fluvio
-- 📅 **Upcoming debates schedule** with filters
-- 🔍 **Search debates** by topic, speaker, or date
-- 🧩 **Modern, responsive design** with HTML, CSS, and JavaScript
-- ⚡ **Fast performance** without heavy frameworks
-- 🛠️ **Node.js backend** integration for future scalability
+## 🚀 Features
+- 🎥 **Real-time live debates** powered by **Fluvio**.
+- 📅 **Upcoming debates** with filterable schedules.
+- 🔎 **Search** debates by topic, speaker, or date.
+- 🎨 **Modern, responsive design** with HTML, CSS, and JavaScript.
+- ⚡ **Fast performance** without heavy frameworks.
+- 🔧 **Scalable Node.js backend** integration.
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Frontend         | Backend   | Streaming | Hosting         |
-|:----------------:|:---------:|:---------:|:----------------:|
-| HTML, CSS, JavaScript | Node.js  | Fluvio    | (GitHub Pages / Render / Your Hosting) |
+| Frontend            | Backend  | Streaming | Hosting                         |
+|---------------------|----------|-----------|---------------------------------|
+| HTML, CSS, JavaScript| Node.js  | Fluvio    | GitHub Pages / Render / Custom |
 
 ---
 
-## 🚀 Getting Started
+## 🧩 Folder Structure
+
+```
+debate-live-backend/
+├── node_modules/            # Node.js dependencies
+├── public/                   # Frontend public files
+│   ├── images/               # Images
+│   ├── index.html            # Home page
+│   ├── about.css             # About page styles
+│   ├── improved-style.css    # General styles
+│   ├── livedebates.html      # Live debates page
+│   ├── livedebates.css       # Live debates styles
+│   ├── schedulepage.html     # Schedule page
+│   ├── schedulepage.css      # Schedule page styles
+│   ├── statistics.html       # Statistics page
+│   └── statistics.css        # Statistics styles
+├── server/                   # Backend server files
+│   ├── server.js             # Main server file
+│   └── server-fluvio.js      # Fluvio streaming server
+├── package.json              # Project metadata and scripts
+├── package-lock.json         # Exact dependency versions
+├── test-fluvio.js            # Fluvio streaming test
+└── tsconfig.json             # TypeScript configuration (optional)
+```
+
+---
+
+## ⚙️ Getting Started
 
 Follow these steps to set up the project locally:
 
 1. **Clone the repository**
+   ```bash
    git clone https://github.com/ArnavMishra23/DebateLive.git
    cd DebateLive
-   
-2. Install backend dependencies
-cd server
-npm install
-npm start
+   ```
 
-3. Open the frontend
-Locate the index.html file inside the project root.
-Right-click and choose Open with → Browser.
+2. **Install backend dependencies**
+   ```bash
+   npm install
+   npm start
+   ```
 
-4.(Optional): Use a local server for frontend:
-Using VSCode extension 'Live Server'
-Or Python's simple HTTP server
-python3 -m http.server
+3. **Open the frontend**
+   - Locate the `index.html` file inside the `public/` directory.
+   - Right-click and choose **"Open with Browser"**.
 
-5.Visit
-http://localhost:8000
+4. *(Optional)* **Use a local server for frontend**
 
-📁 Folder Structure
-debate-live-backend2/
-├── node_modules/       # Node.js modules
-├── public/             # Frontend public files
-│   ├── Images/         # Images and icons
-│   ├── about.css
-│   ├── about.html
-│   ├── about.js
-│   ├── improved-style.css
-│   ├── index.html      # Home page
-│   ├── livedebates.css
-│   ├── livedebates.html
-│   ├── livedebates.js
-│   ├── schedulepage.css
-│   ├── schedulepage.html
-│   ├── schedulepage.js
-│   ├── script.js
-│   ├── statistics.css
-│   ├── statistics.html
-│   ├── statistics.js
-│   ├── style.css
-├── server/             # Backend server files
-│   ├── server.js
-│   ├── voting.js
-├── package.json        # Node.js dependencies
-├── package-lock.json   # Dependency lock file
-├── test-fluvio.js      # Fluvio streaming test
-├── tsconfig.json       # TypeScript configuration (optional)
+   - **Using VSCode Extension**:  
+     Install the **Live Server** extension and click "Go Live".
 
+   - **Using Python HTTP Server**:  
+     ```bash
+     python3 -m http.server
+     ```
+     Then visit [http://localhost:8000](http://localhost:8000) in your browser.
 
-📜 License
-This project is licensed under the MIT License.
+---
 
-🙌 Acknowledgements
-Special thanks to Fluvio for real-time data streaming support.
-Designed and developed with ❤️ by Arnav Mishra.
+## 📜 License
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🙏 Acknowledgements
+- Huge thanks to **Fluvio** for real-time data streaming support.
+- Designed and developed with ❤️ by **Arnav Mishra**.
 

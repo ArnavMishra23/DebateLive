@@ -1,97 +1,113 @@
-# DebateLive 🎙️
+![github-submission-banner](https://github.com/user-attachments/assets/a1493b84-e4e2-456e-a791-ce35ee2bcf2f)
 
-![GitHub repo size](https://img.shields.io/github/repo-size/ArnavMishra23/DebateLive?color=blue)
-![GitHub stars](https://img.shields.io/github/stars/ArnavMishra23/DebateLive?style=social)
-![License](https://img.shields.io/github/license/ArnavMishra23/DebateLive)
+# 🚀 DebateLive
 
 > A real-time platform for hosting, joining, and experiencing live debates from anywhere in the world.
 
 ---
 
-## 🚀 Features
-- 🎥 **Real-time live debates** powered by **Fluvio**.
-- 📅 **Upcoming debates** with filterable schedules.
-- 🔎 **Search** debates by topic, speaker, or date.
-- 🎨 **Modern, responsive design** with HTML, CSS, and JavaScript.
-- ⚡ **Fast performance** without heavy frameworks.
-- 🔧 **Scalable Node.js backend** integration.
+## 📌 Problem Statement
+
+**Problem Statement 3 – Real-Time Data Experiences with Fluvio 
+
+---
+
+## 🎯 Objective
+
+**DebateLive** aims to provide an accessible, real-time platform where users from anywhere can host, join, and experience live debates.  
+It serves communities needing open discussions, educational debate formats, or real-time audience engagement — helping bridge communication gaps globally.
+
+---
+
+## 🧠 Team & Approach
+
+### Team Members:  
+- Arnav Mishra ([(GitHub / LinkedIn / Role)](https://github.com/ArnavMishra23))  
+
+### Your Approach:  
+- Chose this problem to enhance real-time communication and public speaking experiences across regions.
+- Solved the challenges of low-latency real-time updates using Fluvio.
+- Pivoted from a heavy framework to a lightweight HTML/CSS/JS design for better performance.
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Frontend            | Backend  | Streaming | Hosting                         |
-|---------------------|----------|-----------|---------------------------------|
-| HTML, CSS, JavaScript| Node.js  | Fluvio    | GitHub Pages / Render / Custom |
+### Core Technologies Used:
+- Frontend: HTML, CSS, JavaScript
+- Backend: Node.js
+- Database: (None — could add in future for user management)
+- APIs: Fluvio streaming
+- Hosting: GitHub Pages / Render
+
+### Sponsor Technologies Used (if any):
+
+- ✅ **Fluvio:** Real-time live debate data streaming
+---
+
+## ✨ Key Features
+
+- ✅ Real-time live debates powered by Fluvio
+- ✅ Upcoming debate schedules with filters
+- ✅ Search debates by topic, speaker, or date
+- ✅ Modern, lightweight, and responsive design without heavy frameworks
+- ✅ Node.js backend for future scalability
 
 ---
 
-## 🧩 Folder Structure
+## ✅ Tasks & Bonus Checklist
 
+- [ ] **All members completed mandatory social channels task**
+- [ ] **Bonus Task 1 - Badge Sharing (2 points)**
+- [ ] **Bonus Task 2 - Sprint.dev Sign-up (3 points)**
+
+---
+
+## 🧪 How to Run the Project
+
+### Requirements:
+- Node.js (Backend)
+- Python3 (optional, for simple HTTP server)
+
+### Local Setup:
+```bash
+# Clone the repo
+git clone https://github.com/ArnavMishra23/DebateLive.git
+cd DebateLive
+
+# Install backend dependencies
+npm install
+
+# Start backend server
+npm start
+
+# Open index.html manually or use Live Server Extension
+# OR use Python HTTP Server
+python3 -m http.server
 ```
-debate-live-backend/
-├── node_modules/            # Node.js dependencies
-├── public/                   # Frontend public files
-│   ├── images/               # Images
-│   ├── index.html            # Home page
-│   ├── about.css             # About page styles
-│   ├── improved-style.css    # General styles
-│   ├── livedebates.html      # Live debates page
-│   ├── livedebates.css       # Live debates styles
-│   ├── schedulepage.html     # Schedule page
-│   ├── schedulepage.css      # Schedule page styles
-│   ├── statistics.html       # Statistics page
-│   └── statistics.css        # Statistics styles
-├── server/                   # Backend server files
-│   ├── server.js             # Main server file
-│   └── server-fluvio.js      # Fluvio streaming server
-├── package.json              # Project metadata and scripts
-├── package-lock.json         # Exact dependency versions
-├── test-fluvio.js            # Fluvio streaming test
-└── tsconfig.json             # TypeScript configuration (optional)
-```
 
 ---
 
-## ⚙️ Getting Started
+## 🧬 Future Scope
 
-Follow these steps to set up the project locally:
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/ArnavMishra23/DebateLive.git
-   cd DebateLive
-   ```
-
-2. **Install backend dependencies**
-   ```bash
-   npm install
-   npm start
-   ```
-
-3. **Open the frontend**
-   - Locate the `index.html` file inside the `public/` directory.
-   - Right-click and choose **"Open with Browser"**.
-
-4. *(Optional)* **Use a local server for frontend**
-
-   - **Using VSCode Extension**:  
-     Install the **Live Server** extension and click "Go Live".
-
-   - **Using Python HTTP Server**:  
-     ```bash
-     python3 -m http.server
-     ```
-     Then visit [http://localhost:8000](http://localhost:8000) in your browser.
+- 📈 Add user authentication and profiles
+- 🛡️ Secure real-time streams with authentication
+- 🌐 Expand to multi-language support for debates
+- 🎥 Enable video/audio debates alongside text
 
 ---
 
-## 📜 License
-This project is licensed under the [MIT License](LICENSE).
+## 📎 Resources / Credits
+
+- [Fluvio](https://fluvio.io/) for real-time data streaming.
+- Open-source libraries for front-end styling.
+- Special thanks to Arnav Mishra for project development.
 
 ---
 
-## 🙏 Acknowledgements
-- Huge thanks to **Fluvio** for real-time data streaming support.
-- Designed and developed with ❤️ by **Arnav Mishra**.
+## 🏁 Final Words
 
+Working on DebateLive was an incredible experience — balancing real-time data, performance, and simplicity.  
+Overcoming challenges with real-time infrastructure taught us practical backend handling, and kept the hackathon energy alive! 🚀🔥
+
+---
